@@ -1,0 +1,75 @@
+.note-box {
+    background-color: white;
+    /* border: rgb(19, 13, 12) 1px solid; */
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: medium;
+    width: 320px;
+    display: none;
+    top: 30%;
+    right:10%;
+    padding: 8px;
+    position: fixed;
+    /* bottom: 100px; */
+    /* right: 30px; */
+    align-items: center;
+    /* height: 50%; */
+}
+
+.note-box>h1{
+    color: rgb(19, 13, 12);
+    font-size: x-large;
+    padding: 3px;
+}
+.note-box>textarea{
+    width: 80%;
+    padding: 2px;
+    border-radius: 5px;
+    border: rgb(138, 138, 138) 1px solid;
+    outline: none;
+    padding-left: 2px;
+    margin-top: 6px;
+    margin: 4px;
+    margin-bottom: 30px;
+    font-size: large;
+}
+.note-box>button{
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+    border:none;
+    font-size: large;
+    padding: 4px 6px;
+    width: 30%;
+    height: 30px;
+    background-color: seagreen;
+    margin:4px;
+}
+
+.box{
+    background-color: white;
+    border: rgb(19, 13, 12) 1px solid;
+    border-radius: 5px;
+    font-size: medium;
+    width: 320px;
+    display: none;
+    padding: 8px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    align-items: center;
+}
+.txt{
+    color: rgb(239, 241, 239);
+    background-color: #0e6d82;
+    border-radius: 5px;
+    /* border: rgb(19, 13, 12) 1px solid; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Web Result Notes",
+  "version": "0.1",
+  "permissions":["contextMenus","tabs","storage"],
+  "commands": {
+    "show": {
+        "suggested_key": {
+            "default": "Alt+3"
+        },
+        "description": "Add a note to any google search result"
+    }
+},
+"content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["content.css"]
+    }
+],
+"web_accessible_resources": [
+    "images/icon32.png"
+],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
